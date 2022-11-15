@@ -7,7 +7,7 @@ import pickle
 import streamlit as st
 
 
-heart = pd.read_csv('/home/subramaniam/Projects/Heart disease prediction/heart_disease_data.csv')
+heart = pd.read_csv('heart_disease_data.csv')
 
 #print('dataset:',heart)
 #print('no of rows and columns:',heart.shape)
